@@ -41,7 +41,7 @@ export default {
 
 ### Summary 总结
 
-快速接入微信JSSDK
+快速接入微信JS-SDK
 
 ### Detailed design 详细设计
 
