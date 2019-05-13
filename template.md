@@ -1,6 +1,6 @@
 - Start Date: (请填写今天的日期，YYYY-MM-DD)
 - RFC PR: (留空)
-- Umi Issue: (留空)
+- Issue: (留空)
 
 # Summary 总结
 
