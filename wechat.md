@@ -25,16 +25,11 @@ export default {
   plugins: [
     ['umi-plugin-wechat', {
         wechat:{
-            //前4个是微信验证签名必须的参数，第2-4个参数为从服务端端获取的结果
             'appId': 'xxx',
-            'nonceStr': 'xxx',
-            'signature': 'xxx',
-            'timestamp': 'xxx',
-            //下面为可选参数
+            'jsApiList': [], //设置所有想要使用的微信jsapi列表, 默认值为 ['scanQRCode', 'updateAppMessageShareData', 'updateTimelineShareData',]
+            'serviceUri': '',
             'debug': true, //开启 debug 模式
             'isEnable': true, // 是否使用微信sdk，默认开启，用于将项目接入其他app时需要关闭，使用第三方app提供原生能力支持
-            'jsApiList': [], //设置所有想要使用的微信jsapi列表, 默认值为 ['scanQRCode', 'updateAppMessageShareData', 'updateTimelineShareData',]
-            'customUrl': '' //自定义微信js链接
         }
     }],
   ],
